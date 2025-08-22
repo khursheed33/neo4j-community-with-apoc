@@ -8,8 +8,6 @@
 *.err
 *.out
 docker-compose.override.yml
-local-package/*.sh
-local-package/*.jar
 
 # Ignore node_modules and other common folders (if any are added in the future)
 node_modules/
