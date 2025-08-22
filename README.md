@@ -1,8 +1,3 @@
-docker build -t neo4j-with-apoc .
-docker run -d   --name neo4j-apoc   -p7474:7474 -p7687:7687   -e NEO4J_AUTH=neo4j/password   neo4j-with-apoc
-RETURN apoc.version();
-
-
 # Neo4j with APOC Docker Setup
 
 This project provides a Dockerized Neo4j instance with the APOC plugin included.
