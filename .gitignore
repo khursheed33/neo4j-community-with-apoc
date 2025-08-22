@@ -1,0 +1,25 @@
+# Ignore Docker-related files
+*.log
+*.pid
+*.tmp
+*.bak
+*.swp
+*.swo
+*.err
+*.out
+docker-compose.override.yml
+local-package/*.sh
+local-package/*.jar
+
+# Ignore node_modules and other common folders (if any are added in the future)
+node_modules/
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+.env.*
